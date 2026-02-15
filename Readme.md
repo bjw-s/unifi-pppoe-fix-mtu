@@ -63,7 +63,6 @@ If you prefer to install manually:
     PPP_INTERFACE=ppp0
     WAN_INTERFACE=eth8
     VLAN_ID=35
-    VLAN_INTERFACE=${WAN_INTERFACE}.${VLAN_ID}
     MTU=1500
     ```
     Adjust the values to match your setup.
